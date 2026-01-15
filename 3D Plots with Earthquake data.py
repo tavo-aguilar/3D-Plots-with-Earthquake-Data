@@ -4,7 +4,8 @@ import pandas as pd
 from matplotlib import cm
 from mpl_toolkits.mplot3d import Axes3D
 
-eq_data = pd.read_csv("/Users/gustavoaguilar/Downloads/Datasets for Python Earth/EarthquakeLocations/last5Years.csv",skiprows=1)
+#Load data
+eq_data = pd.read_csv("last5Years.csv",skiprows=1)
 
 # define some boundaries for our box
 lat_min,lon_min,lat_max,lon_max=-35,175,-15,190
@@ -32,7 +33,7 @@ elev = 30  # Set the elevation angle in degrees
 azim = 0  # Set the azimuthal angle in degrees
 ax1.view_init(elev=elev, azim=azim)   # default valeus for elev is 30 and tha for azim is -60.
 
-ax2 = fig.add_subplot(122, projection='3d') # so we can do this.
+ax2 = fig.add_subplot(122, projection='3d')
 
 ax2.scatter(x,y,z,c='r',marker='o')
 ax2.set_xlabel('Longitude')
