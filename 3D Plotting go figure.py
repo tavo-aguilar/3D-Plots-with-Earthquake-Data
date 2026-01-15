@@ -1,3 +1,4 @@
+#This code is added after the "3D Plots with Earthquake data" in order to produce an interactive plot
 import plotly.graph_objects as go
 
 fig_new = go.Figure(data=[go.Scatter3d(x=x,y=y,z=z,mode='markers', marker=dict(size=2,color=z))])
