@@ -3,7 +3,7 @@
 
 
 ## Overview
-This repository aims to model earthquakes over the last 5 years along the Mariana's trench. Since 2D modleing will not be optimal when trying to model the locations of each earthquake, 3D figures are needed. A 3D model let's us assign x,y, and z vaues for each earthquake. With the use of python packages (numpy, matplotlib, and pandas), we take a dataset and use data filtering techniques to make 3D figures.
+This repository aims to model earthquakes over the last 5 years along Mariana trench. Since 2D modleing will not be optimal when trying to model the locations of each earthquake, 3D figures are needed. A 3D model let's us assign x,y, and z vaues for each earthquake. With the use of python packages (numpy, matplotlib, and pandas), we take a dataset and use data filtering techniques to make 3D figures.
 
 ## Background
 Earthquakes are events that always occur on earth and are studied through the branch of seismology. With the continued study of these events, we are more accurately report and locate each earthquake. Modeling earthquakes can help us better understand and visualize how these events occur. With the use of gathered data, we can recognize trends, such as earthquakes with higher energy release tend to be deeper in the Earth. 
