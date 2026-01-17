@@ -28,8 +28,8 @@ The results from this dataset is modeled from two different point of views from 
 Some key findings include that the smallest earthquake magnitude is 5.0, while the largest magnitude is 7.4 in the dataset. We also notice that the earthquakes with higher energy release are at deeper locations, which is consistant with what is already understood. 
 
 ## How to Run
-- To run the primary file, the dataset ('last5years.csv') must be downloaded and a path to load it into a pandas dataframe must be done first. Once the data is loaded, you can clone the code from the primary python file ("3D Plots with Earthquake data") into a python IDE of choice and run to reproduce figures. 
+1. To run the primary file, the dataset ('last5years.csv') must be downloaded and a path to load it into a pandas dataframe must be done first. Once the data is loaded, you can clone the code from the primary python file ("3D Plots with Earthquake data") into a python IDE of choice and run to reproduce figures. 
 
-- If you wish to produce the interactive plot, clone the code from the python file that reads "3D Plottting go figure" after running the primary python file. 
+2. If you wish to produce the interactive plot, copy the code from the python file that reads "3D Plottting go figure" after running the primary python file. 
 
-- To produce the plot that displays the energy released at each point, you can clone from the "3D Plot with Energy Released" into a python IDE of your choice. I do recommend running the primary file first to ensure your data is loaded properly!
+3. To produce the plot that displays the energy released at each point, you can clone from the "3D Plot with Energy Released" into a python IDE of your choice. I do recommend running the primary file first to ensure your data is loaded properly!
